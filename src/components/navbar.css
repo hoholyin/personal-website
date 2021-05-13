@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #282c34;
+}
+
+.leftHalf {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.rightHalf {
+    flex: 4;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.tab {
+    color: azure;
+    font-size: 20px;
+}
+
+.name {
+    color: azure;
+    font-size: 22px;
+}
+
+.tab-box {
+    padding: 0px 0px 5px 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a.tab:hover {
+    color: #04AA6D;
+}
+
+.leftHalf, .rightHalf {
+    font-family: Lato;
+    display: flex;
+    flex-direction: row;
+}
