@@ -13,11 +13,11 @@ body {
   background-color: #16181c;
 }
 
-.name-card {
-
-}
-
 .name-card-box {
   display: flex;
   flex-direction: row;
+}
+
+.page-container {
+  padding-top: 60px;
 }

@@ -1,0 +1,29 @@
+.mobile-name-card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-profile-pic {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.mobile-greetings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.mobile-greeting1 {
+    color: #bdc5cd;
+    font-size: 15pt;
+}
+
+.mobile-greeting2 {
+    color: #bdc5cd;
+    font-size: 30pt;
+}

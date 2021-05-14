@@ -21,9 +21,12 @@ nav {
     z-index: 1;
     background-color: #282c34;
     padding: 18px 1.2em 18px 1.2em;
+    width: 90%;
+    position: fixed;
+    top: 0;
 }
 
-.name {
+.sideName {
     color: azure;
     font-size: 22px;
     position: absolute;
@@ -55,7 +58,7 @@ nav {
     align-items: center;
 }
 
-.sidenav-container a {
+.sidenav-container div {
     text-decoration: none;
     font-size: 1rem;
     color: #818181;
@@ -64,7 +67,7 @@ nav {
     margin: 10px 0;
 }
 
-.sidenav-container a:hover {
+.sidenav-container div:hover {
     color: #f1f1f1;
 }
 
@@ -84,7 +87,7 @@ nav {
     margin-bottom: 3rem;
 }
 
-a.sideTab {
+div.sideTab {
     font-size: 20px;
 }
 

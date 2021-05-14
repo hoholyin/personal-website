@@ -1,0 +1,28 @@
+.web-name-card-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.web-profile-pic {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+.web-greetings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.web-greeting1 {
+    color: #bdc5cd;
+    font-size: 15pt;
+}
+
+.web-greeting2 {
+    color: #bdc5cd;
+    font-size: 50pt;
+}
