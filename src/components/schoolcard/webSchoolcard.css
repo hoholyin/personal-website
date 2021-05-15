@@ -1,10 +1,46 @@
 .web-schoolcard-container {
     display: flex;
     flex-direction: row;
+    color: #bdc5cd;
+    justify-content: center;
 }
 
 .nus-logo {
-    width: 15em;
-    height: 15em;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
+}
+
+.web-degree-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.web-school-info-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 1.5em;
+}
+
+.web-school-name {
+    font-size: 15pt;
+    padding-bottom: 20px;
+}
+
+.web-degree-names {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-right: 8em;
+}
+
+.web-degree-caps {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.web-degree-row {
+    padding-bottom: 1em;
 }

@@ -1,0 +1,40 @@
+.mobile-schoolcard-container {
+    display: flex;
+    flex-direction: column;
+    color: #bdc5cd;
+    justify-content: center;
+    align-items: center;
+}
+
+.nus-logo {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.mobile-degree-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-school-info-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.mobile-school-name {
+    font-size: 15pt;
+}
+
+.mobile-degree-name {
+    font-size: 14pt;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.mobile-degree-cap {
+    font-size: 16pt;
+}

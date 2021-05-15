@@ -37,9 +37,7 @@ const App = () => {
         <div className="App">
             <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css' />
             <Navbar isMobile={isMobile} callback={setCurrentPage}/>
-            <div className="page-container">
-                { setPage(currentPage) }
-            </div>
+            { setPage(currentPage) }
         </div>
     );
 }
