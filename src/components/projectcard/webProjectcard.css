@@ -1,0 +1,37 @@
+
+.web-projectcard-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #1F2229;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.web-projectcard-container:hover {
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+.project-img {
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: azure;
+    padding-left: 2em;
+}
+
+.project-title {
+    font-size: 30px;
+    padding-bottom: 0.5em;
+}
+
+.project-desc {
+    font-size: 16px;
+}

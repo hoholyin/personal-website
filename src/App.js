@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home";
 import Education from "./pages/education";
+import Projects from "./pages/projects";
 
 const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
@@ -17,7 +18,7 @@ const setPage = (page) => {
         case "education":
             return <Education isMobile={isMobile} />;
         case "projects":
-            return;
+            return <Projects isMobile={isMobile}/>;
         case "teaching":
             return;
         default:
