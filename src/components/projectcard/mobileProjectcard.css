@@ -1,0 +1,39 @@
+.mobile-projectcard-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1F2229;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    color: azure;
+    text-align: center;
+}
+.mobile-project-img {
+    width: 5em;
+    height: 5em;
+    border-radius: 10px;
+}
+
+.mobile-project-title {
+    font-size: 30px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.mobile-project-desc {
+    font-size: 17px;
+}
+
+.arrow-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mobile-project-arrow {
+    width: 2em;
+    height: 2em;
+    color: #282C34;
+}

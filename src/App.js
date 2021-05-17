@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home";
 import Education from "./pages/education";
 import Projects from "./pages/projects";
+import Teaching from "./pages/teaching";
 
 const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
@@ -20,7 +21,7 @@ const setPage = (page) => {
         case "projects":
             return <Projects isMobile={isMobile}/>;
         case "teaching":
-            return;
+            return <Teaching isMobile={isMobile} />;
         default:
             return <Home isMobile={isMobile}/>;
     }

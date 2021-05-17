@@ -7,7 +7,7 @@ const allProjects = [
     {
         name: "Mello",
         img: mello,
-        desc: "Mello is an all in one family management app that brings families closer and makes family organization a breeze! Available on the App Store and Play Store.",
+        desc: "Mello is an all in one family management app that brings families closer and makes family organization a breeze! It is available on the App Store and Play Store.",
         link: "https://mello-family.netlify.app/"
     },
     {
