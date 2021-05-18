@@ -1,0 +1,27 @@
+
+.web-teachingcard-container {
+    padding-bottom: 2em;
+    color: azure;
+}
+
+.web-teachingcard-header {
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+.web-teaching-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    color: #A5B0B0
+}
+
+.web-teaching-feedback-link {
+    color: #04AA6D;
+}
+
+.web-teaching-feedback-link:hover {
+    text-decoration: underline;
+}
