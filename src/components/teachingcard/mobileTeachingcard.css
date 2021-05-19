@@ -1,0 +1,32 @@
+
+.mobile-teachingcard-container {
+    padding-bottom: 2em;
+    color: azure;
+}
+
+.mobile-teachingcard-header {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+
+.mobile-teachingcard-header-code {
+    font-size: 1.2em;
+    color: #C2D1D1;
+}
+
+.mobile-teaching-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    font-size: 1.2em;
+    color: #A5B0B0
+}
+
+.mobile-teaching-feedback-link {
+    color: #04AA6D;
+}
+
+.mobile-teaching-feedback-link:hover {
+    text-decoration: underline;
+}

@@ -1,12 +1,20 @@
 
 .web-teachingcard-container {
     padding-bottom: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
     color: azure;
 }
 
 .web-teachingcard-header {
     font-size: 1.8em;
     padding-bottom: 0.5em;
+}
+
+.web-teachingcard-header-code {
+    font-size: 1.2em;
+    color: #C2D1D1;
+    padding-bottom: 0.2em;
 }
 
 .web-teaching-row {

@@ -8,7 +8,8 @@ import TeachingList from "../components/teachingList/teachingList";
 const Teaching = (props) => {
     const teachings = [
         {
-          module: "CS1231S Discrete Structures",
+          module_code: "CS1231S",
+          module: "Discrete Structures",
           semesters: [
               {
                   sem: "AY20/21 Semester 1",
@@ -17,7 +18,8 @@ const Teaching = (props) => {
           ],
         },
         {
-            module: "CS2040/CS2040S Data Structures and Algorithms",
+            module_code: "CS2040/CS2040S",
+            module: "Data Structures and Algorithms",
             semesters: [
                 {
                     sem: "AY19/20 Semester 1",
@@ -38,7 +40,8 @@ const Teaching = (props) => {
             ]
         },
         {
-            module: "CS3217 Software Engineering on Modern Application Platforms",
+            module_code: "CS3217",
+            module: "Software Engineering on Modern Application Platforms",
             semesters: [
                 {
                     sem: "AY20/21 Semester 2",
@@ -52,7 +55,7 @@ const Teaching = (props) => {
             <div className="header-container">
                 <span>Teaching</span>
             </div>
-            <TeachingList teachings={teachings} />
+            <TeachingList isMobile={props.isMobile} teachings={teachings} />
         </div>
     )
 }

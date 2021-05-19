@@ -1,10 +1,10 @@
 import React from "react";
-import Teachingcard from "../teachingcard/teachingcard";
 import "./teachingList.css";
+import Teachingcard from "../teachingcard/teachingcard";
 
 const TeachingList = (props) => {
    const allTeachings = props.teachings.map((obj) => {
-              return (<Teachingcard teaching={obj} />);
+              return (<Teachingcard isMobile={props.isMobile} teaching={obj} />);
        });
    return (
        <div className="teaching-list">
