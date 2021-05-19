@@ -1,6 +1,6 @@
 # Website
 
-https://hoholyin.github.io/personal-website/
+https://hoholyin.github.io/website/
 
 # Deploy 
 To deploy, run:

@@ -1,6 +1,6 @@
 {
-  "name": "personal-website",
-  "homepage": "https://hoholyin.github.io/personal-website",
+  "name": "website",
+  "homepage": "https://hoholyin.github.io/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
