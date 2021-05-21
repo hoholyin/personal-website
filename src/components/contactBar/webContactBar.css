@@ -1,0 +1,29 @@
+
+.web-contact-bar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: azure;
+}
+
+.web-contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.web-contact-header-line-container {
+    width: calc((50%) - 100px);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.web-contact-header-line {
+    height: 0px;
+}
+
+.web-contact-header-text {
+    font-family: Lato;
+    font-size: 1.5em;
+}
