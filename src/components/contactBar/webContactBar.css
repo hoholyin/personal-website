@@ -27,3 +27,37 @@
     font-family: Lato;
     font-size: 1.5em;
 }
+
+.web-email-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.web-email-address-container {
+    padding-left: 1em;
+    font-family: Lato;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.web-email-icon {
+    background-color: azure;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+.web-email {
+    color: azure;
+}
+
+.web-email:hover {
+    color: #04AA6D;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
