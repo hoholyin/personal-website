@@ -1,6 +1,7 @@
 import Namecard from "../components/namecard/namecard.js";
 import React from "react";
 import "./home.css";
+import ContactBar from "../components/contactBar/contactBar";
 
 const Home = (props) => {
     const firstMessage = "I'm currently a fourth year student at the National University of Singapore"
@@ -17,6 +18,7 @@ const Home = (props) => {
             <div className="message-container">
                 <span className="home-message">{secondMessage}</span>
             </div>
+            <ContactBar isMobile={props.isMobile} />
         </div>
     )
 }

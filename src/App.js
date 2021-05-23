@@ -5,7 +5,6 @@ import Home from "./pages/home";
 import Education from "./pages/education";
 import Projects from "./pages/projects";
 import Teaching from "./pages/teaching";
-import ContactBar from "./components/contactBar/contactBar";
 
 const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
@@ -40,7 +39,6 @@ const App = () => {
         <div className="App">
             <Navbar isMobile={isMobile} callback={setCurrentPage}/>
             { setPage(currentPage) }
-            <ContactBar isMobile={isMobile} />
         </div>
     );
 }
