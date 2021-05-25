@@ -1,6 +1,7 @@
 import drawberry from "../images/drawberry.png";
 import agileberry from "../images/agileberry.png";
 import mello from "../images/mello.jpg";
+import coinshack from "../images/coinshack.png";
 import ProjectList from "../components/projectList/projectList";
 
 const allProjects = [
@@ -20,7 +21,13 @@ const allProjects = [
         name: "AgileBerry",
         img: agileberry,
         desc: "AgileBerry is a project task tracker and management web application.",
-        link: "https://agileberry.netlify.app/"
+        link: "https://agileberry.netlify.app/",
+    },
+    {
+        name: "CoinShack",
+        img: coinshack,
+        desc: "CoinShack - A risk-free simulator for anyone to learn to trade cryptocurrencies!",
+        link: "https://github.com/teamcoinshack/CoinShack",
     },
 ]
 
