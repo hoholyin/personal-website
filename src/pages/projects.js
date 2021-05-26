@@ -2,6 +2,7 @@ import drawberry from "../images/drawberry.png";
 import agileberry from "../images/agileberry.png";
 import mello from "../images/mello.jpg";
 import coinshack from "../images/coinshack.png";
+import whoosh from "../images/whoosh.png";
 import ProjectList from "../components/projectList/projectList";
 
 const allProjects = [
@@ -28,6 +29,12 @@ const allProjects = [
         img: coinshack,
         desc: "CoinShack - A risk-free simulator for anyone to learn to trade cryptocurrencies!",
         link: "https://github.com/teamcoinshack/CoinShack",
+    },
+    {
+        name: "Whoosh",
+        img: whoosh,
+        desc: "Whoosh is a digital queueing application that helps restaurants manage queues virtually.",
+        link: "https://github.com/hoholyin/whoosh",
     },
 ]
 
