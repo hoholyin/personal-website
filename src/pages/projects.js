@@ -10,31 +10,36 @@ const allProjects = [
         name: "Mello",
         img: mello,
         desc: "Mello is an all in one family management app that brings families closer and makes family organization a breeze! It is available on the App Store and Play Store.",
-        link: "https://mello-family.netlify.app/"
+        link: "https://mello-family.netlify.app/",
+        language: "react-native",
     },
     {
         name: "Drawberry",
         img: drawberry,
         desc: "DrawBerry is a competitive multiplayer drawing game designed for the iPad.",
         link: "https://github.com/hoholyin/DrawBerry",
+        language: "swift",
     },
     {
         name: "AgileBerry",
         img: agileberry,
         desc: "AgileBerry is a project task tracker and management web application.",
         link: "https://agileberry.netlify.app/",
+        language: "react",
     },
     {
         name: "CoinShack",
         img: coinshack,
         desc: "CoinShack - A risk-free simulator for anyone to learn to trade cryptocurrencies!",
         link: "https://github.com/teamcoinshack/CoinShack",
+        language: "react-native",
     },
     {
         name: "Whoosh",
         img: whoosh,
         desc: "Whoosh is a digital queueing application that helps restaurants manage queues virtually.",
         link: "https://github.com/hoholyin/whoosh",
+        language: "dart",
     },
 ]
 
