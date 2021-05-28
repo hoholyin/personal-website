@@ -1,11 +1,9 @@
 import "./webProjectcard.css";
-
-const translateToTextLabel = (language) => {
-    return language.split("-").join(" ").toUpperCase();
-}
+import "./projectcard.css";
+import {translateToTextLabel} from "../../commons/commons";
 
 const WebProjectcard = (props) => {
-    const languageClassname = "web-language-container " + props.proj.language;
+    const languageClassname = "language-container " + props.proj.language;
     return (
         <a className="web-projectcard-container" href={props.proj.link} target="_blank">
             <img className="web-project-img" src={props.proj.img} alt="project image" />

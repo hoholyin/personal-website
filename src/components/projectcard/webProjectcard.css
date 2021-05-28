@@ -50,32 +50,3 @@
 .web-projectcard-language-container {
     width: max-content;
 }
-
-.web-language-container {
-    margin-bottom: 0.5em;
-    margin-top: 1.5em;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    border-radius: 5px;
-    display: flex;
-    font-family: Lato-Bold;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 1em;
-}
-
-.swift {
-    background-color: var(--swift);
-}
-
-.react-native {
-    background-color: var(--reactNative);
-}
-
-.react {
-    background-color: var(--react);
-}
-
-.dart {
-    background-color: var(--dart);
-}
