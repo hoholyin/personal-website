@@ -1,10 +1,3 @@
-:root {
-    --reactNative: #F1E05A;
-    --react: #F1E05A;
-    --swift: #FFAC45;
-    --dart: #03B4AA;
-}
-
 .web-projectcard-container {
     display: flex;
     flex-direction: row;
@@ -48,5 +41,6 @@
 }
 
 .web-projectcard-language-container {
+    margin-top: 1em;
     width: max-content;
 }

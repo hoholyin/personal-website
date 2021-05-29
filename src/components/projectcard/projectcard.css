@@ -1,3 +1,11 @@
+:root {
+    --reactNative: #F1E05A;
+    --react: #F1E05A;
+    --swift: #FFAC45;
+    --dart: #03B4AA;
+    --java: #B07318;
+}
+
 .language-container {
     margin-bottom: 0.5em;
     padding: 0.2em 0.5em 0.2em 0.5em;
@@ -24,4 +32,8 @@
 
 .dart {
     background-color: var(--dart);
+}
+
+.java {
+    background-color: var(--java);
 }

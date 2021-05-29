@@ -3,6 +3,7 @@ import agileberry from "../images/agileberry.png";
 import mello from "../images/mello.jpg";
 import coinshack from "../images/coinshack.png";
 import whoosh from "../images/whoosh.png";
+import liberry from "../images/LiBerry.png";
 import ProjectList from "../components/projectList/projectList";
 
 const allProjects = [
@@ -40,6 +41,13 @@ const allProjects = [
         desc: "Whoosh is a digital queueing application that helps restaurants manage queues virtually.",
         link: "https://github.com/hoholyin/whoosh",
         language: "dart",
+    },
+    {
+        name: "LiBerry",
+        img: liberry,
+        desc: "LiBerry is a desktop library management application which enables librarians from neighborhood libraries to manage tens of thousands of books and borrowers",
+        link: "https://github.com/hoholyin/main",
+        language: "java",
     },
 ]
 
