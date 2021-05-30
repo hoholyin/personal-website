@@ -45,7 +45,7 @@ const allProjects = [
     {
         name: "LiBerry",
         img: liberry,
-        desc: "LiBerry is a desktop library management application which enables librarians from neighborhood libraries to manage tens of thousands of books and borrowers",
+        desc: "LiBerry is a desktop library management application which enables librarians from neighborhood libraries to manage tens of thousands of books and borrowers.",
         link: "https://github.com/hoholyin/main",
         language: "java",
     },
