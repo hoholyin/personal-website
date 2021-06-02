@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.3205b488.chunk.css",
-    "main.js": "/website/static/js/main.3195289f.chunk.js",
-    "main.js.map": "/website/static/js/main.3195289f.chunk.js.map",
+    "main.js": "/website/static/js/main.973b73b0.chunk.js",
+    "main.js.map": "/website/static/js/main.973b73b0.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.f93358cd.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.f93358cd.js.map",
     "static/js/2.b41b6666.chunk.js": "/website/static/js/2.b41b6666.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/cs1231s_ay2021_s1.bc066051.pdf": "/website/static/media/cs1231s_ay2021_s1.bc066051.pdf",
     "static/media/cs2040_ay1920_s1.28e74e33.pdf": "/website/static/media/cs2040_ay1920_s1.28e74e33.pdf",
     "static/media/cs2040_ay1920_s2.6b36ef3f.pdf": "/website/static/media/cs2040_ay1920_s2.6b36ef3f.pdf",
+    "static/media/cs2040_ay2021_s2.a495544b.pdf": "/website/static/media/cs2040_ay2021_s2.a495544b.pdf",
     "static/media/cs2040s_ay2021_s1.14f86a34.pdf": "/website/static/media/cs2040s_ay2021_s1.14f86a34.pdf",
     "static/media/drawberry.cab1446f.png": "/website/static/media/drawberry.cab1446f.png",
     "static/media/mello.d6de1b32.jpg": "/website/static/media/mello.d6de1b32.jpg",
@@ -29,6 +30,6 @@
     "static/js/runtime-main.f93358cd.js",
     "static/js/2.b41b6666.chunk.js",
     "static/css/main.3205b488.chunk.css",
-    "static/js/main.3195289f.chunk.js"
+    "static/js/main.973b73b0.chunk.js"
   ]
 }
