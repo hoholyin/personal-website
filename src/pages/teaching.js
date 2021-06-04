@@ -15,7 +15,11 @@ const Teaching = (props) => {
               {
                   sem: "AY20/21 Semester 1",
                   feedback: cs1231s_ay2021_s1
-              }
+              },
+              {
+                  sem: "AY21/22 Semester 1",
+                  feedback: null,
+              },
           ],
         },
         {
@@ -37,6 +41,10 @@ const Teaching = (props) => {
                 {
                     sem: "AY20/21 Semester 2",
                     feedback: cs2040_ay2021_s2,
+                },
+                {
+                    sem: "AY21/22 Semester 1",
+                    feedback: null,
                 },
             ]
         },
