@@ -54,7 +54,7 @@ const Teaching = (props) => {
             semesters: [
                 {
                     sem: "AY20/21 Semester 2",
-                    feedback: null,
+                    feedback: "Not Available",
                 }
             ],
         },
