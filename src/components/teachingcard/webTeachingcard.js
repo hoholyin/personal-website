@@ -2,18 +2,13 @@ import "./webTeachingcard.css";
 
 const WebTeachingcard = (props) => {
     const feedbackLink = (feedback) => {
-        if (feedback == "Not Available") {
+        if (!feedback.includes("/")) {
             return (
-                <span className="web-teaching-feedback-unavailable">Feedback Not Available</span>
-            )
-        }
-        if (feedback) {
-            return (
-                <a className="web-teaching-feedback-link" href={feedback} target="_blank">View Feedback</a>
+                <span className="web-teaching-feedback-unavailable">{feedback}</span>
             )
         }
         return (
-            <span className="web-teaching-feedback-unavailable">To be updated</span>
+            <a className="web-teaching-feedback-link" href={feedback} target="_blank">View Feedback</a>
         )
 }
 const rows = props.teaching.semesters.map((obj) => {
