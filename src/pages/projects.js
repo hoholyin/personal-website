@@ -4,6 +4,7 @@ import mello from "../images/mello.jpg";
 import coinshack from "../images/coinshack.png";
 import whoosh from "../images/whoosh.png";
 import liberry from "../images/LiBerry.png";
+import attendance_bot from "../images/attendance_bot.jpeg";
 import ProjectList from "../components/projectList/projectList";
 
 const allProjects = [
@@ -48,6 +49,13 @@ const allProjects = [
         desc: "LiBerry is a desktop library management application which enables librarians from neighborhood libraries to manage tens of thousands of books and borrowers.",
         link: "https://github.com/hoholyin/main",
         languages: ["java"],
+    },
+    {
+        name: "AttendanceBot",
+        img: attendance_bot,
+        desc: "A functioning Telegram bot to allow students to take their own attendance during lessons",
+        link: "https://github.com/hoholyin/AttendanceBot",
+        languages: ["javascript"],
     },
 ]
 

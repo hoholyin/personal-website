@@ -1,6 +1,7 @@
 :root {
     --reactNative: #F1E05A;
     --react: #F1E05A;
+    --javascript: #F1E05A;
     --swift: #FFAC45;
     --dart: #03B4AA;
     --java: #B07318;
@@ -36,4 +37,8 @@
 
 .java {
     background-color: var(--java);
+}
+
+.javascript {
+    background-color: var(--javascript);
 }
