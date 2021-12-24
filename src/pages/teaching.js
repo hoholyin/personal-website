@@ -3,6 +3,8 @@ import cs2040_ay1920_s2 from "../teaching_feedback/cs2040_ay1920_s2.pdf";
 import cs2040s_ay2021_s1 from "../teaching_feedback/cs2040s_ay2021_s1.pdf";
 import cs1231s_ay2021_s1 from "../teaching_feedback/cs1231s_ay2021_s1.pdf";
 import cs2040_ay2021_s2 from "../teaching_feedback/cs2040_ay2021_s2.pdf";
+import cs2040s_ay2122_s1 from "../teaching_feedback/cs2040s_ay2122_s1.pdf";
+import cs1231s_ay2122_s1 from "../teaching_feedback/cs1231s_ay2122_s1.pdf";
 import TeachingList from "../components/teachingList/teachingList";
 
 
@@ -18,7 +20,7 @@ const Teaching = (props) => {
               },
               {
                   sem: "AY21/22 Semester 1",
-                  feedback: "To be updated",
+                  feedback: cs1231s_ay2122_s1,
               },
           ],
         },
@@ -44,7 +46,7 @@ const Teaching = (props) => {
                 },
                 {
                     sem: "AY21/22 Semester 1",
-                    feedback: "To be updated",
+                    feedback: cs2040s_ay2122_s1
                 },
             ]
         },
@@ -55,7 +57,21 @@ const Teaching = (props) => {
                 {
                     sem: "AY20/21 Semester 2",
                     feedback: "Feedback not available",
+                },
+                {
+                    sem: "AY21/22 Semester 2",
+                    feedback: "Feedback not available",
                 }
+            ],
+        },
+        {
+            module_code: "CS4218",
+            module: "Software Testing",
+            semesters: [
+                {
+                    sem: "AY21/22 Semester 2",
+                    feedback: "To be updated",
+                },
             ],
         },
     ]
