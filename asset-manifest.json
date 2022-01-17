@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.af2ac495.chunk.css",
-    "main.js": "/website/static/js/main.6fd43a8a.chunk.js",
-    "main.js.map": "/website/static/js/main.6fd43a8a.chunk.js.map",
+    "main.js": "/website/static/js/main.3c766e34.chunk.js",
+    "main.js.map": "/website/static/js/main.3c766e34.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.f93358cd.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.f93358cd.js.map",
     "static/js/2.b41b6666.chunk.js": "/website/static/js/2.b41b6666.chunk.js",
@@ -27,12 +27,12 @@
     "static/media/drawberry.cab1446f.png": "/website/static/media/drawberry.cab1446f.png",
     "static/media/mello.d6de1b32.jpg": "/website/static/media/mello.d6de1b32.jpg",
     "static/media/nus-logo.2d15c0f9.jpg": "/website/static/media/nus-logo.2d15c0f9.jpg",
-    "static/media/profile.1417e81e.jpg": "/website/static/media/profile.1417e81e.jpg"
+    "static/media/profile.e7669d5e.jpg": "/website/static/media/profile.e7669d5e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f93358cd.js",
     "static/js/2.b41b6666.chunk.js",
     "static/css/main.af2ac495.chunk.css",
-    "static/js/main.6fd43a8a.chunk.js"
+    "static/js/main.3c766e34.chunk.js"
   ]
 }
