@@ -1,0 +1,16 @@
+
+.schoolcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-color: #04aa6d;
+    border-width: 2px;
+    border-style: solid;
+    width: 50%;
+}
+
+.education-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -3,6 +3,7 @@
     flex-direction: row;
     color: #bdc5cd;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .nus-logo {
@@ -14,6 +15,7 @@
 .web-degree-container {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .web-school-info-container {
@@ -31,7 +33,7 @@
 .web-degree-names {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    align-content: space-between;
     padding-right: 8em;
 }
 

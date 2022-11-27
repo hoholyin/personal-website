@@ -4,8 +4,8 @@ import "./home.css";
 import ContactBar from "../components/contactBar/contactBar";
 
 const Home = (props) => {
-    const firstMessage = "I'm currently a fourth year student at the National University of Singapore"
-        + ", enrolled in the Double Degree Programme for "
+    const firstMessage = "I have graduated from the National University of Singapore"
+        + ", the Double Degree Programme for "
         + "Computer Science and Pure Mathematics."
     const secondMessage = "My interests lies in Artificial Intelligence, Software Engineering, "
         + "as well as solving mathematical problems!"
